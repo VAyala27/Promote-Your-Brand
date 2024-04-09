@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://lh3.googleusercontent.com/H8PM8cC3Vf7c5utmIPq8bC6H5bna_pVqagTuKo38pcjF9Cv4HkJ_4ZmoWFQBsB9aMnylsWsVklH1WAryh5Cv9r8U43GtRBDGivg=w2592');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+}
+
+.profile-content{
+    padding-top: 5rem;
+}
+
+.profile-content .profile-img img{
+    max-width: 150px;
+    border: 10px solid #fff;
+}
+
+.profile-content h1{
+    font-size: 48px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    line-height: 1.125;
+}
+
+.profile-content h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.125;
+    font-weight: 400;
+}
+
+.profile-content p{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.profile-content i{
+    font-size: 28px;
+    margin: 0px 10px;
+    color: #fff;
+}
+
+.profile-content .btn{
+    padding: 15px;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    color: #54309c;
+}
+
+.profile-content p{
+    margin: 0;
+}
+
+.profile-content a{
+    color: #fff;
+}
